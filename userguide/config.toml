@@ -1,5 +1,5 @@
 baseURL = "/"
-title = "Docsy Example"
+title = "Roneo"
 
 enableRobotsTXT = true
 
@@ -10,8 +10,8 @@ theme = ["docsy"]
 enableGitInfo = true
 
 # Language settings
-contentDir = "content/en"
-defaultContentLanguage = "en"
+contentDir = "content/fr"
+defaultContentLanguage = "fr"
 defaultContentLanguageInSubdir = false
 # Useful when translating.
 enableMissingTranslationPlaceholders = true
@@ -54,18 +54,6 @@ anchor = "smart"
 
 # Additional menu items
 
-[[menu.main]]
-    name = "Example Site"
-    weight = 40
-    url = "https://example.docsy.dev"
-    pre = "<i class='fas fa-laptop-code'></i>"
-[[menu.main]]
-    name = "GitHub"
-    weight = 50
-    url = "https://github.com/google/docsy/"
-    pre = "<i class='fab fa-github'></i>"
-    post = "<span class='alert'>New!</span>" 
-
 [services]
 [services.googleAnalytics]
 # Comment out the next line to disable GA tracking. Also disables the feature described in [params.ui.feedback].
@@ -94,12 +82,12 @@ weight = 1
 # Everything below this are Site Params
 
 [params]
-copyright = "The Docsy Authors"
-privacy_policy = "https://policies.google.com/privacy"
+copyright = "Roneo.app"
+privacy_policy = ""
 
 # Menu title if your navbar has a versions selector to access old versions of your site.
 # This menu appears only if you have at least one [params.versions] set.
-version_menu = "Releases"
+version_menu = "Version"
 
 # Flag used in the "version-banner" partial to decide whether to display a 
 # banner on every page indicating that this is an archived version of the docs.
@@ -110,15 +98,16 @@ archived_version = false
 # Used in the "version-banner" partial to display a version number for the 
 # current doc set.
 version = "0.0"
+version = "1.0"
 
 # A link to latest version of the docs. Used in the "version-banner" partial to
 # point people to the main doc site.
 url_latest_version = "https://example.com"
 
 # Repository configuration (URLs for in-page links to opening issues and suggesting changes)
-github_repo = "https://github.com/google/docsy"
+github_repo = "https://github.com/RoneoOrg/hugo-theme-docsy"
 # An optional link to a related project repo. For example, the sibling repository where your product code lives.
-github_project_repo = "https://github.com/google/docsy"
+github_project_repo = "https://github.com/RoneoOrg/hugo-theme-docsy"
 
 # Specify a value here if your content directory is not in your repo's root directory
 github_subdir = "userguide"
@@ -176,19 +165,19 @@ enable = false
 # End user relevant links. These will show up on left side of footer and in the community page if you have one.
 [[params.links.user]]
 	name ="GitHub Discussions"
-	url = "https://github.com/google/docsy/discussions"
+	url = "https://github.com/RoneoOrg/hugo-theme-docsy"
 	icon = "fab fa-github"
-        desc = "Discussion and help from your fellow users"
+        desc = "Obtenir de l'aide"
 [[params.links.user]]
 	name = "User mailing list"
-	url = "https://groups.google.com/forum/#!forum/docsy-users"
+	url = "https://github.com/RoneoOrg/hugo-theme-docsy"
 	icon = "fa fa-envelope"
-        desc = "Sign up for Docsy announcements"
+        desc = "S'inscrire à la liste mail"
 [[params.links.user]]
 	name ="Twitter"
-	url = "https://twitter.com/docsydocs"
+	url = "https://twitter.com/"
 	icon = "fab fa-twitter"
-        desc = "Follow us on Twitter to get the latest news!"
+        desc = "Suivez nous sur Twitter!"
 [[params.links.user]]
 	name = "Stack Overflow"
 	url = "https://stackoverflow.com/questions/tagged/docsy"
@@ -197,9 +186,9 @@ enable = false
 # Developer relevant links. These will show up on right side of footer and in the community page if you have one.
 [[params.links.developer]]
 	name = "GitHub"
-	url = "https://github.com/google/docsy"
+	url = "https://github.com/RoneoOrg/hugo-theme-docsy"
 	icon = "fab fa-github"
-        desc = "Development takes place here!"
+        desc = "Participer au développement!"
 # [[params.links.developer]]
 	# name = "Slack"
 	# url = "https://example.org/slack"
